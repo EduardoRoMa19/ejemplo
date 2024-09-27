@@ -5,7 +5,7 @@ function App() {
   const [texto, setTexto] = useState('');
   
   // Definir un estado para manejar el texto mostrado
-  const [textoMostrado, setTextoMostrado] = useState('Texto a cambiar');
+  const [textoMostrado, setTextoMostrado] = useState('Texto');
   
   // Definir useEffect solo como ejemplo, aunque no sea necesario aquí.
   useEffect(() => {
